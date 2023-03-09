@@ -8,29 +8,16 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['525560066050', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],  
-  ['5212411719888', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215533827255', '💫 Mystic - Collaborator 7 💫', false],
-  ['593968585283'],
-  ['5219993404349'],
-  ['584125778026'],
-  ['5219991402134'],	
-  ['5219996125657']
-] 
+  ['573229157476', '💕𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁 💕', true],
 
 global.suittag = ['5219993404349'] 
 global.prems = ['51995386439'] 
 
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.author = '𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁'
+global.wm = '𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁'
+global.igfg = '𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁'
+global.wait = '* CARGANDO...ESPERA*'
 
 global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -38,7 +25,7 @@ global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c7
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = ['BrunoSobrino']
+global.lolkeysapi = ['Maiidebrao']
 
 global.APIs = { 
   xteam: 'https://api.xteam.xyz',
@@ -432,14 +419,14 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`
-global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁`
+global.gt = '𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁'
+global.mysticbot = '𝗠𝗮𝘆𝘆𝗱𝗲 𝗕𝗼𝘁'
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
-global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.waitt = '*[❗] Cargando, espera*'
+global.waittt = '*[❗] Cargando, espera we*'
+global.waitttt = '*[❗]ESTOY CARGANDO, esperate*'
 global.nomorown = '5219993404349'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
